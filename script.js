@@ -1,3 +1,7 @@
+//Assignment-04
+
+
+//------------------------------Solution 01----------------------------------
 
 function calculateTax(income, expenses) {
     const remainingIncome = income - expenses;
@@ -12,6 +16,7 @@ function calculateTax(income, expenses) {
 
 
 
+//------------------------------Solution 02----------------------------------
 
 function sendNotification(email) {
     if(email.indexOf('@') === -1){
@@ -28,8 +33,7 @@ function sendNotification(email) {
 }
 
 
-
-
+//------------------------------Solution 03----------------------------------
 
 
 function checkDigitsInName(name) {
@@ -50,6 +54,7 @@ function checkDigitsInName(name) {
 
 
 
+//------------------------------Solution 04----------------------------------
 
 
 function calculateFinalScore(obj) {
@@ -77,8 +82,7 @@ function calculateFinalScore(obj) {
 
 
 
-
-
+//------------------------------Solution 05----------------------------------
 
 function  waitingTime(waitingTimes  , serialNumber) {
     
@@ -99,4 +103,11 @@ function  waitingTime(waitingTimes  , serialNumber) {
     return reaminingTime;
 
 }
+
+
+
+
+
+
+//Backup Iink: https://github.com/rehan606/JavaScript-Function-Problems-Solution.git
 
