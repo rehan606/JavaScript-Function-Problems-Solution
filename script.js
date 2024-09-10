@@ -105,9 +105,3 @@ function  waitingTime(waitingTimes  , serialNumber) {
 }
 
 
-
-
-
-
-//Backup Iink: https://github.com/rehan606/JavaScript-Function-Problems-Solution.git
-
