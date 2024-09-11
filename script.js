@@ -33,8 +33,8 @@ function sendNotification(email) {
 }
 
 
-//------------------------------Solution 03----------------------------------
 
+//------------------------------Solution 03----------------------------------
 
 function checkDigitsInName(name) {
     if(typeof name !== 'string'){
@@ -42,7 +42,7 @@ function checkDigitsInName(name) {
     }
     
     for(let i = 0; i < name.length; i++){
-        if(!isNaN(name[i]) && name[i] !== ' '){
+        if(!isNaN(name[i]) ){
             return true
         }
     }
@@ -54,8 +54,10 @@ function checkDigitsInName(name) {
 
 
 
-//------------------------------Solution 04----------------------------------
 
+
+
+//------------------------------Solution 04----------------------------------
 
 function calculateFinalScore(obj) {
     if(typeof obj !== 'object' ){
@@ -63,7 +65,7 @@ function calculateFinalScore(obj) {
     }
     
 
-    if ( typeof obj.name !== 'string' || typeof obj.testScore !== 'number' || obj.testScore >= 50 || typeof obj.schoolGrade !== 'number' || obj.schoolGrade >= 30 || typeof obj.isFFamily !== 'boolean'){
+    if ( typeof obj.name !== 'string' || typeof obj.testScore !== 'number' || obj.testScore > 50 || typeof obj.schoolGrade !== 'number' || obj.schoolGrade > 30 || typeof obj.isFFamily !== 'boolean'){
         return "Invalid Input"
     }
 
@@ -103,5 +105,7 @@ function  waitingTime(waitingTimes  , serialNumber) {
     return reaminingTime;
 
 }
+
+
 
 
