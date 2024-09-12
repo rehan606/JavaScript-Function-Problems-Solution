@@ -123,3 +123,4 @@ console.log(waitingTime( array = [2,3,5,7,8,6], serialNumber = 10))
 
 
 
+
