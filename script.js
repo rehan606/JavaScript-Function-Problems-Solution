@@ -13,6 +13,9 @@ function calculateTax(income, expenses) {
     return tax
 }
 
+const tax = calculateTax( 5000, 3400)
+console.log('Total Tax is =', tax)
+
 
 
 
@@ -31,6 +34,8 @@ function sendNotification(email) {
     return notification
 
 }
+const result = sendNotification('rehan@@gmail.com')
+console.log('Notification Message is:', result)
 
 
 
@@ -50,6 +55,8 @@ function checkDigitsInName(name) {
     return false
     
 }
+const checkName =  checkDigitsInName('Rehan07')
+console.log('name is:', checkName)
 
 
 
@@ -58,6 +65,8 @@ function checkDigitsInName(name) {
 
 
 //------------------------------Solution 04----------------------------------
+
+let student = {name: 'Rehan', testScore: 45, schoolGrade: 25, isFFamily: true }
 
 function calculateFinalScore(obj) {
     if(typeof obj !== 'object' ){
@@ -80,6 +89,9 @@ function calculateFinalScore(obj) {
     }
     return false
 }
+
+const score = calculateFinalScore(student)
+console.log('Can i take a Addmission ?', score)
 
 
 
@@ -105,6 +117,8 @@ function  waitingTime(waitingTimes  , serialNumber) {
     return reaminingTime;
 
 }
+
+console.log(waitingTime( array = [2,3,5,7,8,6], serialNumber = 10))
 
 
 
